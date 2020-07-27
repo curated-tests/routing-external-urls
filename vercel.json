@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/external", "destination": "https://vercel.com/" }
+    { "source": "/external", "destination": "https://vercel.com" }
   ]
 }
