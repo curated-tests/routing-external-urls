@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/external", "destination": "https://vercel.com" }
+    { "source": "/external-rewrite", "destination": "https://vercel.com" }
+  ],
+  "redirects": [
+    { "source": "/external-redirect", "destination": "https://vercel.com" }
   ]
 }
