@@ -1,0 +1,15 @@
+{
+    "routes": [
+        {
+            "src": "/external-rewrite",
+            "dest": "https://vercel.com"
+        },
+        {
+            "src": "/external-redirect",
+            "status": 308,
+            "headers": {
+                "Location": "https://vercel.com"
+            }
+        }
+    ]
+}
